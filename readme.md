@@ -1,6 +1,6 @@
 # D11-CALCULATOR 
 
-<h1>Hello reader my name is Honey Jones and I am your web developer</h1><br>
+<h1>***Hello reader my name is Honey Jones and I am your web developer***.</h1><br>
 
 <h2>You will find in this folder a calculator I just created.</h2><br>
 

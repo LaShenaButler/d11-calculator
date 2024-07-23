@@ -75,3 +75,24 @@
     // go to btn0, add a click event listerner, to call the btnZero function
     var btn0 = document.getElementById('btn0');
     btn0.addEventListener('click', () => { display('0');});
+
+    // go to btndot, add a click event listerner, to call the btnDot function
+    var btnDot = document.getElementById('btnDot');
+    btnDot.addEventListener('click', () => { display('.');});
+
+    // go to btnPlus, add a click event listerner, to call the btnPlus function
+    var btnPlus = document.getElementById('btnPlus');
+    btnPlus.addEventListener('click', () => { display('+');});
+
+    // go to btnMinus, add a click event listerner, to call the btnMinus function
+    var btnMinus = document.getElementById('btnMinus');
+    btnMinus.addEventListener('click', () => { display('-');});
+
+    // go to btnMultiply, add a click event listerner, to call the btnMultiply function
+    var btnMultiply = document.getElementById('btnMultiply');
+    btnMultiply.addEventListener('click', () => { display('*');});
+
+    // go to btnDivide, add a click event listerner, to call the btnDivide function
+    var btnDivide = document.getElementById('btnDivide');
+    btnDivide.addEventListener('click', () => { display('/');});
+

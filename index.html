@@ -16,11 +16,14 @@
     }
 
     function solve() {
-        // grab the expression/value in the input box
+        // grab the expression/value in the input box and add it to variable x
+
+        var x = document.getElementById('output').value;
+        
 
         // solve the expression and assign it variable y 
 
-    var y = 600;
+    var y = eval(x);
 
         // display y in the input/output box
         document.getElementById('output').value = y;

@@ -18,10 +18,12 @@
     function solve() {
         // grab the expression/value in the input box
 
-        // solve the expression and assign it variable y
+        // solve the expression and assign it variable y 
+
+    var y = 600;
 
         // display y in the input/output box
-        document.getElementById('output').value = 500;
+        document.getElementById('output').value = y;
     }
     </script>
 
@@ -30,23 +32,23 @@
 
     <main class="grid grid-cols-4 gap-5">
         <input class="bg-green-100 col-span-3 text-3xl" id="output" type="text">
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="clearScreen()">Clear</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(1)">1</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(2)">2</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(3)">3</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(/)">/</button>       
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(4)">4</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(5)">5</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(6)">6</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(*)">*</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(7)">7</button>   
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(8)">8</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(9)">9</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(-)">-</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(0)">0</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(.)">.</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="clearScreen()">C</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('1')">1</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('2')">2</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('3')">3</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('/')">/</button>       
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('4')">4</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('5')">5</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('6')">6</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('*')">*</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('7')">7</button>   
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('8')">8</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('9')">9</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('-')">-</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('0')">0</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('.')">.</button>
         <button class="p-5 rounded border border-black-2 bg-green-500" onclick="solve()">=</button>
-        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display(+)">+</button>
+        <button class="p-5 rounded border border-black-2 bg-green-500" onclick="display('+')">+</button>
             
         </button> 
     </main>
